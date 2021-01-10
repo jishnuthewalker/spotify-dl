@@ -16,7 +16,9 @@ if [ ! -d "$HOME/bin" ]; then
     mkdir "$HOME/bin"
 fi
 
-curl https://gist.githubusercontent.com/jishnuthewalker/b57509249f91ee38b42463b651b2ced0/raw/c0ccaf154d964da3f1b52a79ed50a466926b0ac7/termux-url-opener > "$HOME/bin/termux-url-opener"
+#curl https://gist.githubusercontent.com/jishnuthewalker/b57509249f91ee38b42463b651b2ced0/raw/c0ccaf154d964da3f1b52a79ed50a466926b0ac7/termux-url-opener > "$HOME/bin/termux-url-opener"
+#alternate script
+
 
 echo "[ spotifydl ] Setting up storage..."
 termux-setup-storage
